@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-11-15T09:02:35",
+  "files": {
+    "实验设计方案.md": "6a85a13a68059aa8b99f4f217729b35532a65d11ea5b56c009b3342fad7a84e1",
+    "config.py": "d2c473e48ff65208b94d02a4357563ade369024f78013c5ce5a7c88976fd0a23",
+    "common.py": "e486eb5cdf7600a05dc4308d3e371dc888293585c4eded3ac9566c56f777f8a4",
+    "00_freeze_prereg.py": "ad520293a2b510ea559dfcc0f8726e9fcf787605afe4ad5cccc70d7c3ba139ce",
+    "01_miko_preprocess.py": "d0ac7cc71254ace117085e0161b574f3847a7273f794e0d971109f58a4b56ad5",
+    "02_affec_preprocess.py": "ed119fc7a6fd7ad86923c1bfa7aeb3ed76c179492f7b441da9649533fd32c0c4",
+    "03_x2c_train.py": "ed77df0370fe2a36f917b71eff05fb805bda3926cd6503af68e9503435b8ad59",
+    "04_stim_features.py": "a2ab84c80cb3c7a003e3d8f81e002f85679ba2d952c11e23cfbae38cd4cfadc4",
+    "05_erp_features.py": "c82cdc620b6e10af4d1b32c8effc8b702445e7973ed511e8340a2feb81b955c0",
+    "06_erp_stats.py": "d6e332c2300204327b01156028e7fa9004a33ab56650fa2ef62bcee8df75d1b5",
+    "07_x2c_kinematics.py": "4cbb80bc019aa6325a820627cae7d8493d0b84c96edcc282aae1c7f0ca711bf7",
+    "08_connectivity.py": "e181988a159b7dc37d7231e2af95d0d2ccefa832df90ec4059bf623084ef3d5f",
+    "09_brain_behavior.py": "92ef5cea0a059be0775f6781b35bcc7991ee942f3ab7f925903d43c6efadbf33",
+    "10_eed.py": "b133800a13c776f2040047406fdf4e41b9196f415ca8d02af5e001c6cb3fa9dc",
+    "11_report.py": "19ffa8226bd5e9821fb3d49b431cc2f7f2fcc1b0a40bf1b437712598a207494a"
+  }
+}

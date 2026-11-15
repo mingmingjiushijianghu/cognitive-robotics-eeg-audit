@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+analysis/derivatives/
+analysis/results/
+analysis/logs/
+analysis/models/
+submission/
+data/
+*.edf
+*.bdf
+*.fif
+*.mat
+*.mp4
+*.pt

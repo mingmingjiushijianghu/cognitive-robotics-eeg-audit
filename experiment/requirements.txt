@@ -1,0 +1,51 @@
+# 具身情感论文（Cognitive Robotics）实验环境
+# 环境：D:\envs\embodied_eeg（conda, Python 3.11）
+# PyTorch 需先单独装 CUDA 版本：
+#   pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124
+
+# --- 数据读取 ---
+numpy
+scipy
+pandas
+h5py
+pymatreader          # Miko 的 .mat（MATLAB 5.0，也可用 scipy.io.loadmat）
+edfio                # AFFEC 的 EDF
+pyyaml
+tqdm
+openpyxl
+huggingface_hub      # X2C 元数据 / X2CNet 权重
+
+# --- EEG 预处理与 ERP（技术路线 1）---
+mne
+mne-bids             # AFFEC 是 BIDS 格式
+autoreject
+pyprep
+mne-icalabel         # ICA 成分自动标注（用 torch 后端）
+
+# --- 功能连接与网络拓扑（技术路线 2）---
+mne-connectivity     # PLV / wPLI / coherence
+networkx
+bctpy                # Brain Connectivity Toolbox（聚类系数、全局效率、模块度）
+
+# --- 统计与建模（技术路线 3）---
+statsmodels          # 线性混合模型（数据集作为随机效应）
+pingouin             # 重复测量 ANOVA、效应量
+scikit-learn
+mne-features
+
+# --- 刺激视频的表情 / 运动学特征提取 ---
+opencv-python
+mediapipe            # 面部 landmark + 52 维 blendshape
+
+# --- 可视化与笔记本 ---
+matplotlib
+seaborn
+jupyterlab
+ipykernel
+ipywidgets
+
+# --- 后来补装（分析脚本要用）---
+av                   # 读 AFFEC 刺激视频的音轨和帧
+pymupdf              # 从 Miko README.pdf 取表情图
+tabulate             # pandas.to_markdown
+psutil               # run_pipeline.py 检查进程
