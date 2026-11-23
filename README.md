@@ -1,8 +1,8 @@
 # Cross-dataset EEG validity audit
 
-Analysis code accompanying **Auditing cross-dataset electroencephalography comparisons between a physically present robot and screen-mediated emotional faces**.
+Analysis code for a cross-dataset EEG validity audit of social robot facial expressions. The Chinese manuscript version is supported by the aggregate outputs and plotting script in [`reproduction_zh`](reproduction_zh/README.md).
 
-This repository contains analysis scripts, dependency specifications and analysis-plan documentation. Raw EEG, participant-level results, videos, model weights and manuscript files are obtained or generated separately.
+This repository contains analysis scripts, dependency specifications, analysis-plan documentation, and aggregate results for the Chinese figures. Raw EEG, participant-level results, videos, model weights and manuscript files are obtained or generated separately.
 
 ## Data and setup
 
@@ -32,3 +32,13 @@ The pipeline creates outputs under `analysis/derivatives`, `analysis/results`, `
 ## Release validation
 
 The release was checked for Python syntax, file inventory, credential patterns and preservation of the original snapshot hashes. The full numerical analysis was not rerun as part of repository publication. The numerical results remain those of the original analysis.
+
+## Chinese manuscript figures
+
+The `reproduction_zh/summary_data` tables contain saved aggregate results. Generate the five main and two supplementary plots with:
+
+```text
+python reproduction_zh/plot_figures.py --output figures_zh --song-font C:/Windows/Fonts/simsun.ttc
+```
+
+The plotting entry point needs NumPy, pandas and Matplotlib. For another operating system, supply a local Song-style Chinese font with `--song-font`. Install Times New Roman for the matching Latin typography. Outputs are EPS, PDF and 600 dpi PNG. The historical figure scripts are available as steps 20–22 and remain separate from the Chinese figure entry point.

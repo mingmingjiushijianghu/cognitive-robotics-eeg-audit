@@ -1,0 +1,27 @@
+﻿affec_lock,p,t_start,t_end,channels,direction,size,n_phys,n_virt
+expression,0.005,0.203125,1.0,"F3,Fp1,Fp2,Fpz,T7",physical > virtual,138,10,44
+expression,0.029,0.2734375,0.6015625,"Oz,POz",physical > virtual,72,10,44
+expression,0.0705,0.46875,0.6796875,"C3,Cz,Fz",physical < virtual,61,10,44
+expression,0.1735,0.859375,1.0,"Oz,P3,P4,POz",physical < virtual,33,10,44
+expression,0.2665,0.0625,0.140625,"Fp1,Fp2,Fpz,T7",physical > virtual,25,10,44
+expression,0.32,0.359375,0.4375,"C4,Cz,F4,Fz,T8",physical < virtual,22,10,44
+expression,0.34,0.09375,0.1640625,"Oz,P3,P4",physical < virtual,22,10,44
+expression,0.683,0.21875,0.2890625,Fp2,physical > virtual,10,10,44
+expression,0.8895,0.40625,0.4375,T7,physical < virtual,5,10,44
+expression,0.914,0.2265625,0.2421875,"P4,Pz",physical < virtual,5,10,44
+expression,0.939,0.3359375,0.3515625,"C4,T8",physical < virtual,4,10,44
+expression,0.946,0.4453125,0.46875,C3,physical < virtual,4,10,44
+expression,0.9825,0.9140625,0.9296875,C4,physical < virtual,3,10,44
+expression,0.994,0.1640625,0.171875,Oz,physical > virtual,2,10,44
+expression,0.9945,0.3125,0.3203125,Cz,physical < virtual,2,10,44
+expression,0.995,0.1796875,0.1875,F4,physical < virtual,2,10,44
+expression,0.9985,0.6640625,0.6640625,Fp2,physical > virtual,1,10,44
+expression,0.9985,0.0234375,0.0234375,F4,physical < virtual,1,10,44
+video,0.0005,0.0859375,1.0,"C3,C4,Cz,F3,F4,Fz,Oz,P3,P4,POz,Pz,T7,T8",physical < virtual,497,10,49
+video,0.021,0.4609375,1.0,"Fp1,Fp2,Fpz",physical > virtual,162,10,49
+video,0.0535,0.2421875,0.4375,"F3,F4,Fp1,Fp2,Fpz,T7",physical > virtual,75,10,49
+video,0.1625,0.6171875,0.8203125,"Oz,POz,Pz",physical > virtual,45,10,49
+video,0.2235,0.375,0.5390625,"Oz,POz",physical > virtual,30,10,49
+video,0.2425,0.1015625,0.203125,"F3,Fp1,Fp2,Fpz",physical > virtual,33,10,49
+video,0.9585,0.0390625,0.0546875,Fpz,physical > virtual,3,10,49
+video,0.9795,0.5703125,0.578125,POz,physical > virtual,2,10,49

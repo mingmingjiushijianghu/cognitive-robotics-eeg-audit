@@ -1,0 +1,3 @@
+﻿feature,slope_A_geo,miko_A_geo,affec_A_geo_range,miko_inside_affec_range,physical_gain,ci_lo,ci_hi,p_boot,compensation_A_geo
+P300,0.3036541192271786,"{'miko_angry': 0.378, 'miko_happy': 0.342, 'miko_sad': 0.455}",0.043-0.587,True,-0.14803866587166908,-0.2989126211851885,-0.00023297007512434792,0.05,-0.48752398369710265
+LPP,0.4758397190517248,"{'miko_angry': 0.378, 'miko_happy': 0.342, 'miko_sad': 0.455}",0.043-0.587,True,0.1246979049254158,-0.03272252251436442,0.27343467440716707,0.1192,0.26205863010746455

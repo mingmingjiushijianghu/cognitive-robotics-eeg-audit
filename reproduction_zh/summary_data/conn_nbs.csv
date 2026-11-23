@@ -1,0 +1,10 @@
+﻿band,t_thresh,component,p,n_edges,edges
+theta,2.5,0,1.0,0,no suprathreshold edges
+theta,3.0,0,1.0,0,no suprathreshold edges
+theta,3.5,0,1.0,0,no suprathreshold edges
+alpha,2.5,0,1.0,0,no suprathreshold edges
+alpha,3.0,0,1.0,0,no suprathreshold edges
+alpha,3.5,0,1.0,0,no suprathreshold edges
+beta,2.5,0,1.0,0,no suprathreshold edges
+beta,3.0,0,1.0,0,no suprathreshold edges
+beta,3.5,0,1.0,0,no suprathreshold edges

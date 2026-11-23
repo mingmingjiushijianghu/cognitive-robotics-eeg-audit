@@ -1,0 +1,15 @@
+﻿test,component,r
+CCA out-of-sample,1,0.612468549121157
+CCA out-of-sample,2,0.33644626854546966
+CCA out-of-sample,3,0.22745786202255933
+CCA out-of-sample,4,0.18276459158477446
+CCA out-of-sample,5,0.32120253220662437
+a priori pair,LipCornerRaiseL ~ mouthSmileLeft,0.011611491211452074
+a priori pair,LipCornerRaiseR ~ mouthSmileRight,0.08262679003190326
+a priori pair,BrowInnerL ~ browInnerUp,0.39694129113528726
+a priori pair,BrowInnerR ~ browInnerUp,0.36435263643258736
+a priori pair,JawPitch ~ jawOpen,-0.3144843986005528
+a priori pair,EyelidUpperL ~ eyeWideLeft,0.3158206970382963
+a priori pair,EyelidUpperR ~ eyeWideRight,0.34582504545173415
+a priori pair,NoseWrinkle ~ noseSneerLeft,0.10822852578334942
+a priori pair,LipCornerStretchL ~ mouthStretchLeft,0.10227740804328665
